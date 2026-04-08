@@ -1,4 +1,35 @@
-import ProjectIcon from "@/components/project-icon";
+import {
+  ExperienceItem,
+  ExperienceContainer,
+} from "@/components/experience-container";
+import ProjectIcon from "@/components/project-container";
+
+const experiences: ExperienceItem[] = [
+  {
+    dates: "2022 - Present",
+    company: "dunnhumby",
+    role: "Platform Engineer",
+    summary: "",
+  },
+  {
+    dates: "May 2021 - Nov 2021",
+    company: "Benco Dental",
+    role: "Application Developer Intern",
+    summary: "",
+  },
+  {
+    dates: "Jun 2020 - Aug 2020",
+    company: "Dream Catchers Foundation",
+    role: "Backend Web Developer Intern",
+    summary: "",
+  },
+  {
+    dates: "Sept 2018 - Mar 2019",
+    company: "Johnson & Johnson",
+    role: "Cyber Security Analyst Co-op",
+    summary: "",
+  },
+];
 
 export default function Home() {
   return (
@@ -33,6 +64,10 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </section>
+
+        <section className="border-t border-stone-700 py-6">
+          <ExperienceContainer experiences={experiences} />
         </section>
 
         <section className="border-t border-stone-700 py-6">
