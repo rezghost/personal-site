@@ -1,4 +1,5 @@
 import { SquareArrowOutUpRight } from "lucide-react";
+import Link from "next/link";
 
 interface ProjectIconProps {
   title: string;
@@ -15,7 +16,7 @@ export default function ProjectIcon({ title, desc, url }: ProjectIconProps) {
       : desc;
 
   return (
-    <a href={url} className="block h-full">
+    <Link href={url} className="block h-full">
       <div className="flex h-full min-h-28 w-full flex-col gap-2 border border-stone-700 p-3">
         <h1 className="w-full text-[12px] font-bold">{title}</h1>
         <p className="w-full text-[12px]">{description}</p>
@@ -23,6 +24,6 @@ export default function ProjectIcon({ title, desc, url }: ProjectIconProps) {
           <SquareArrowOutUpRight className="inline" size={12} />
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

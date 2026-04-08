@@ -3,6 +3,7 @@ import {
   ExperienceContainer,
 } from "@/components/experience-container";
 import ProjectIcon from "@/components/project-container";
+import Link from "next/link";
 
 const experiences: ExperienceItem[] = [
   {
@@ -56,13 +57,17 @@ export default function Home() {
               are listed below.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-4 gap-y-2 underline decoration-stone-400">
-              <a href="https://github.com/rezghost">GitHub</a>
-              <a href="https://www.linkedin.com/in/alex-zaykowski-04388a163/">
+              <Link href="https://github.com/rezghost">GitHub</Link>
+              <Link href="https://www.linkedin.com/in/alex-zaykowski-04388a163/">
                 LinkedIn
-              </a>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              </Link>
+              <Link
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 CV
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -76,7 +81,7 @@ export default function Home() {
             <ProjectIcon
               title={"Content Droid"}
               desc={"Automated TikTok subtitles and narration"}
-              url={"https://github.com/rezghost/ContentDroid"}
+              url={"/projects/content-droid"}
             />
             <ProjectIcon
               title={"Workout Tracker"}
