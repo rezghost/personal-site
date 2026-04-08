@@ -9,7 +9,7 @@ const experiences: ExperienceItem[] = [
   {
     dates: "2022 - Present",
     company: "dunnhumby",
-    role: "Platform Engineer",
+    role: "Software Engineer II (platform)",
     summary: "",
   },
   {
