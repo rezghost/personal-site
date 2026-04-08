@@ -52,7 +52,8 @@ export default function Home() {
             <p>
               Outside of work, Alex enjoys cooking, fly fishing, gardening, and
               spending time with his fiancee and their dog. This site serves as
-              a more permanent home for selected projects.
+              a more permanent home to catalog his experience and projects which
+              are listed below.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-4 gap-y-2 underline decoration-stone-400">
               <a href="https://github.com/rezghost">GitHub</a>
