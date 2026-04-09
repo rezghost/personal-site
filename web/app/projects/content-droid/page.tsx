@@ -29,7 +29,7 @@ export default function ContentDroidPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub
+                GitHub Repo
               </a>
               <Link href="/">Back</Link>
             </div>
@@ -40,11 +40,14 @@ export default function ContentDroidPage() {
           <h1 className="pb-4 text-lg font-bold">Architecture</h1>
           <div className="space-y-2">
             <p>
-              Content Droid was composed of four main runtime components: a
-              `web` application for user interaction, an `api` service for
+              Content Droid was composed of four main runtime components: a{" "}
+              <span className="rounded bg-stone-700 px-1">web</span> application
+              for user interaction, an{" "}
+              <span className="rounded bg-stone-700 px-1">api</span> service for
               request handling and status tracking, a RabbitMQ queue for job
-              orchestration, and a `processor` worker responsible for the
-              expensive generation pipeline.
+              orchestration, and a{" "}
+              <span className="rounded bg-stone-700 px-1">processor</span>{" "}
+              worker responsible for the expensive generation pipeline.
             </p>
             <p>
               PostgreSQL stored job lifecycle state, while Google Cloud services

@@ -51,10 +51,10 @@ export default function Home() {
               APIs, IAC, and a range of internal and client-facing services.
             </p>
             <p>
-              Outside of work, Alex enjoys cooking, fly fishing, gardening, and
-              spending time with his fiancee and their dog. This site serves as
-              a more permanent home to catalog his experience and projects which
-              are listed below.
+              Outside of work, Alex enjoys cooking, listening to music, fly
+              fishing, gardening, and spending time with his fiancee and their
+              dog. This site serves as a more permanent home to catalog his
+              experience and projects which are listed below.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-4 gap-y-2 underline decoration-stone-400">
               <Link href="https://github.com/rezghost">GitHub</Link>
@@ -68,6 +68,7 @@ export default function Home() {
               >
                 CV
               </Link>
+              <Link href="/music">Music</Link>
             </div>
           </div>
         </section>
