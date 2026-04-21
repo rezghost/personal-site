@@ -58,7 +58,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-4 gap-y-2 underline decoration-stone-400">
               <Link href="https://github.com/rezghost">GitHub</Link>
-              <Link href="https://www.linkedin.com/in/alex-zaykowski-04388a163/">
+              <Link href="https://www.linkedin.com/in/alex-zaykowski">
                 LinkedIn
               </Link>
               <Link
